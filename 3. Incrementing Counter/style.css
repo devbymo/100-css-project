@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
-*,
-*::after {
+* {
   box-sizing: inherit;
 }
 
@@ -14,7 +13,7 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  margin: 0;
+  margin: 1px;
 }
 
 .counter-container {
